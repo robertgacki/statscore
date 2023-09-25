@@ -3,6 +3,7 @@
 - Code was tested in node 6, 10, 12, 14, 16, so it should be quite version agnostic at this stage
 - Application should print out the array of parsed events:
 
+```
 [
   { 
     name: 'Chelsea - Arsenal',
@@ -25,6 +26,7 @@
     score: 'Main score: 2:1 (set1 7:6, set2 6:3, set3 6:7)'
   }
 ]
+```
 
 - Structure of matches data should stay intact (that doesn't mean you can't move it around tho!)
 - You can stick to JS, or use TypeScript as well (it is event better, because we mostly work with TS)
